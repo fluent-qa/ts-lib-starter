@@ -31,9 +31,6 @@ devDependencies:
   "@types/inquirer":
     specifier: ^9.0.7
     version: 9.0.7
-  "@types/jsdom":
-    specifier: ^21.1.5
-    version: 21.1.5
   "@types/node":
     specifier: ^20.9.0
     version: 20.9.0
@@ -46,9 +43,6 @@ devDependencies:
   "@vitest/coverage-v8":
     specifier: ^0.34.6
     version: 0.34.6(vitest@0.34.6)
-  dts-bundle-generator:
-    specifier: ^8.1.2
-    version: 8.1.2
   eslint:
     specifier: ^8.53.0
     version: 8.53.0
@@ -709,17 +703,6 @@ packages:
       }
     dev: true
 
-  /@types/jsdom@21.1.5:
-    resolution:
-      {
-        integrity: sha512-sBK/3YjS3uuPj+HzZyhB4GGTnFmk0mdyQfhzZ/sqs9ciyG41QJdZZdwcPa6OfW97OTNTwl5tBAsfEOm/dui9pQ==,
-      }
-    dependencies:
-      "@types/node": 20.9.0
-      "@types/tough-cookie": 4.0.4
-      parse5: 7.1.2
-    dev: true
-
   /@types/json-schema@7.0.14:
     resolution:
       {
@@ -757,13 +740,6 @@ packages:
       }
     dependencies:
       "@types/node": 20.9.0
-    dev: true
-
-  /@types/tough-cookie@4.0.4:
-    resolution:
-      {
-        integrity: sha512-95Sfz4nvMAb0Nl9DTxN3j64adfwfbBPEYq14VN7zT5J5O2M9V6iZMIIQU1U+pJyl9agHYHNCqhCXgyEtIRRa5A==,
-      }
     dev: true
 
   /@typescript-eslint/eslint-plugin@6.10.0(@typescript-eslint/parser@6.10.0)(eslint@8.53.0)(typescript@5.2.2):
@@ -1453,18 +1429,6 @@ packages:
     engines: { node: ">= 12" }
     dev: false
 
-  /cliui@8.0.1:
-    resolution:
-      {
-        integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==,
-      }
-    engines: { node: ">=12" }
-    dependencies:
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      wrap-ansi: 7.0.0
-    dev: true
-
   /clone@1.0.4:
     resolution:
       {
@@ -1699,18 +1663,6 @@ packages:
     engines: { node: ">=12" }
     dev: false
 
-  /dts-bundle-generator@8.1.2:
-    resolution:
-      {
-        integrity: sha512-/yvy9Xw0cfFodA8n6jEq8/COZ/WXgJtPabnLBAzIfP/TfxWbD/0a0dvfqNHneNqswQrH0kUcaAfGJC9UNvH97w==,
-      }
-    engines: { node: ">=14.0.0" }
-    hasBin: true
-    dependencies:
-      typescript: 5.2.2
-      yargs: 17.7.2
-    dev: true
-
   /eastasianwidth@0.2.0:
     resolution:
       {
@@ -1729,14 +1681,6 @@ packages:
       {
         integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==,
       }
-    dev: true
-
-  /entities@4.5.0:
-    resolution:
-      {
-        integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==,
-      }
-    engines: { node: ">=0.12" }
     dev: true
 
   /es-abstract@1.22.3:
@@ -1851,14 +1795,6 @@ packages:
       "@esbuild/win32-arm64": 0.18.20
       "@esbuild/win32-ia32": 0.18.20
       "@esbuild/win32-x64": 0.18.20
-    dev: true
-
-  /escalade@3.1.1:
-    resolution:
-      {
-        integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==,
-      }
-    engines: { node: ">=6" }
     dev: true
 
   /escape-string-regexp@4.0.0:
@@ -2460,14 +2396,6 @@ packages:
       {
         integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==,
       }
-    dev: true
-
-  /get-caller-file@2.0.5:
-    resolution:
-      {
-        integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==,
-      }
-    engines: { node: 6.* || 8.* || >= 10.* }
     dev: true
 
   /get-func-name@2.0.2:
@@ -3713,15 +3641,6 @@ packages:
       callsites: 3.1.0
     dev: true
 
-  /parse5@7.1.2:
-    resolution:
-      {
-        integrity: sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw==,
-      }
-    dependencies:
-      entities: 4.5.0
-    dev: true
-
   /path-exists@4.0.0:
     resolution:
       {
@@ -3924,14 +3843,6 @@ packages:
       call-bind: 1.0.5
       define-properties: 1.2.1
       set-function-name: 2.0.1
-    dev: true
-
-  /require-directory@2.1.1:
-    resolution:
-      {
-        integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==,
-      }
-    engines: { node: ">=0.10.0" }
     dev: true
 
   /resolve-from@4.0.0:
@@ -4945,14 +4856,6 @@ packages:
       }
     dev: true
 
-  /y18n@5.0.8:
-    resolution:
-      {
-        integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==,
-      }
-    engines: { node: ">=10" }
-    dev: true
-
   /yallist@4.0.0:
     resolution:
       {
@@ -4966,30 +4869,6 @@ packages:
         integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==,
       }
     engines: { node: ">= 14" }
-    dev: true
-
-  /yargs-parser@21.1.1:
-    resolution:
-      {
-        integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==,
-      }
-    engines: { node: ">=12" }
-    dev: true
-
-  /yargs@17.7.2:
-    resolution:
-      {
-        integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==,
-      }
-    engines: { node: ">=12" }
-    dependencies:
-      cliui: 8.0.1
-      escalade: 3.1.1
-      get-caller-file: 2.0.5
-      require-directory: 2.1.1
-      string-width: 4.2.3
-      y18n: 5.0.8
-      yargs-parser: 21.1.1
     dev: true
 
   /yn@3.1.1:

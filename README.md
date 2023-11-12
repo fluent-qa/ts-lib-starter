@@ -39,3 +39,10 @@ ncu -u
 npx changelogen@latest --bump
 npx changelogen@latest --release
 ```
+
+## changelog
+
+```sh
+npm install -g conventional-changelog-cli
+conventional-changelog -p angular -i CHANGELOG.md -s
+```
