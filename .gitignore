@@ -27,4 +27,8 @@ coverage
 dist/
 coverage/
 build/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+bun.lock
 
